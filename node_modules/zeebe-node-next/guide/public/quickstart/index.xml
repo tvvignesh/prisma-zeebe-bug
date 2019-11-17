@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quick Start on Zeebe Node.js Client Guide</title>
+    <link>http://example.org/quickstart/</link>
+    <description>Recent content in Quick Start on Zeebe Node.js Client Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Oct 2019 16:49:55 +1000</lastBuildDate>
+    
+	<atom:link href="http://example.org/quickstart/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Zeebe Node Quickstart</title>
+      <link>http://example.org/quickstart/quickstart/</link>
+      <pubDate>Mon, 28 Oct 2019 16:59:15 +1000</pubDate>
+      
+      <guid>http://example.org/quickstart/quickstart/</guid>
+      <description>Prerequisites  Node.js / npm A Zeebe broker running locally (refer to the broker documentation).  Import the Zeebe Node library Create an index.js file (or index.ts for TypeScript).
+In there, import the Zeebe Node library:
+ import { ZBClient } from &amp;#39;zeebe-node&amp;#39;  const { ZBClient } = require(&amp;#39;zeebe-node&amp;#39;)     Create a ZBClient  import { ZBClient } from &amp;#39;zeebe-node&amp;#39; const zbc = new ZBClient()  const { ZBClient } = require(&amp;#39;zeebe-node&amp;#39;) const zbc = new ZBClient()     This establishes a connection to a Zeebe broker running on localhost:26500.</description>
+    </item>
+    
+  </channel>
+</rss>
